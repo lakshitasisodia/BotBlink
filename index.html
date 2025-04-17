@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BotBlink - short, memorable, and hints at the quick toggle behavior.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+</head>
+<body>
+    <button class="chatbot-toggler">
+        <span class="material-symbols-outlined">mode_comment</span>
+        <span class="material-symbols-outlined">close</span>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>Chatbot</h2>
+            <span class="material-symbols-outlined">close</span>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-symbols-outlined">smart_toy</span>
+
+                <p>Hi there 👋 <br>How can i help you ?</p>
+            </li> 
+        </ul>
+        <div class="chat_input">
+            <textarea placeholder="Enter you query here...." required name="" id=""></textarea>
+            <span role="button" id="send-btn" class="material-symbols-outlined">send</span>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
